@@ -1,0 +1,10 @@
+#searchButton {
+    background:  url("../image/search_icon.svg.png")no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+
+input#searchButton {
+    width:20px;
+    height: 20px;
+}
