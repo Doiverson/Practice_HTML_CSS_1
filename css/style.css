@@ -1,3 +1,17 @@
+html {
+    display: block;
+}
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;            /*tableの要素間の幅を指定*/
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+}
+
 #searchButton {
     background:  url("../image/search_icon.svg.png")no-repeat;
     background-size: 80%;
