@@ -2,7 +2,40 @@ html {
     display: block;
 }
 
+body {
+    background-color: #f6f6f6;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.personal {
+    position: absolute;
+    top: 0.33em;
+    z-index: 100;
+}
+
+.personal ul {
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding-left: 10em;
+}
+
 .infobox {
+    width: 22em;
     border: 1px solid #a2a9b1;
     border-spacing: 3px;            /*tableの要素間の幅を指定*/
     background-color: #f8f9fa;
@@ -10,6 +43,30 @@ html {
     margin: 0.5em 0 0.5em 1em;
     padding: 0.2em;
     float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.infobox td, .infobox th {
+    vertical-align: top;
+    text-align: left;
 }
 
 #searchButton {
