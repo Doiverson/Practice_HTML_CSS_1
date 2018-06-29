@@ -10,30 +10,35 @@
 
 <!--Menu on top-->
 <div class="head">
-    <div class="personal">
+    <div id="personal">
         <ul>Not logged in</ul>
         <ul>Talk</ul>
         <ul>Contributions</ul>
         <ul>Create account</ul>
         <ul>Log in</ul>
     </div>
-    <div class="left-nav">
-        <ul>Article</ul>
-        <ul>Talk</ul>
-    </div>
-    <div class="right-nav">
-        <div class="p-views">
-            <ul>Read</ul>
-            <ul>View source</ul>
-            <ul>View history</ul>
+    <div id="left-navigation">
+        <div class="left-nav">
+            <ul>Article</ul>
+            <ul>Talk</ul>
         </div>
-        <div class="p-search">
-            <h3>Search</h3>
-            <form>
-                <div class="simpleSearch">
-                    <input type="submit" value="" title="Go to page" id="searchButton" class="searchButton">
-                </div>
-            </form>
+    </div>
+    <div id="right-navigation">
+        <div class="right-nav">
+            <div class="p-views">
+                <ul>Read</ul>
+                <ul>View source</ul>
+                <ul>View history</ul>
+            </div>
+            <div class="p-search">
+                <h3>Search</h3>
+                <form>
+                    <div class="simpleSearch">
+                        <input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [ctrl-option-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off">
+                        <input type="submit" value="" title="Go to page" id="searchButton" class="searchButton">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
