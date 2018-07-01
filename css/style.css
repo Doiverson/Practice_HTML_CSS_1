@@ -191,3 +191,13 @@ input#searchButton {
     padding-left: 0.615em;
     padding-right: 0.615em;
 }
+
+.star-and-lock {
+    padding-top: 0.4em;
+    float: right;
+    line-height: 1.6;
+    font-size: 0.875em;
+    position: relative;
+    z-index: 1;
+
+}
