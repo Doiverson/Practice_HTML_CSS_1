@@ -201,3 +201,24 @@ input#searchButton {
     z-index: 1;
 
 }
+
+h1 {
+    overflow: visible;
+    font-size: 1.8em;
+    display: block;
+    position: relative;
+    top: 70px;
+    right: -180px;
+}
+
+.bodyContent {
+    position: relative;
+    line-height: 1.6;
+    font-size: 0.875em;
+    z-index: 0;
+}
+
+.free-encyclopedia {
+    display: block;
+    font-size: 92%;
+}
