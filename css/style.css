@@ -103,15 +103,22 @@ input#searchButton {
     float:left;
 }
 
-.left-nav, .right-nav, .p-views {
+.left-nav, .right-nav {
     float: left;
     height: 2.5em;
     padding-left: 1px;
     padding-top: 0.65em;
 }
 
+.p-views {
+    float: left;
+    height: 2.5em;
+    padding-left: 1px;
+}
+
 .left-nav ul {
     float: left;
+    padding-top: 0.65em;
     line-height: 1.125rem;
     display: block;
     height: 100%;
@@ -163,7 +170,7 @@ input#searchButton {
     max-width: 20em;
     padding-right: 1.4em;
     height: 1.4em;
-    margin-top: 0.65em;
+    margin-top: -3.35px;
     position: relative;
     min-height: 1px;
     border: 1px solid #a2a9b1;
@@ -193,14 +200,21 @@ input#searchButton {
 }
 
 .star-and-lock {
-    padding-top: 0.4em;
+    width: 100px;
+    padding-top: 6.4em;
+    margin-right: 20px;
     float: right;
     line-height: 1.6;
     font-size: 0.875em;
     position: relative;
     z-index: 1;
-
 }
+
+.star-and-lock img {
+    float: left;
+    padding-left: 9px;
+}
+
 
 h1 {
     overflow: visible;
@@ -216,9 +230,18 @@ h1 {
     line-height: 1.6;
     font-size: 0.875em;
     z-index: 0;
+    margin-top: 95px;
 }
 
 .free-encyclopedia {
     display: block;
     font-size: 92%;
+}
+
+.content-sub {
+    font-size: 84%;
+    line-height: 1.2em;
+    margin: 0 0 1.4em 1em;
+    color: #54595d;
+    width: auto;
 }
