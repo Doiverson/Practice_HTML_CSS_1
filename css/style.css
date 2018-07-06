@@ -233,6 +233,11 @@ h1 {
     margin-top: 95px;
 }
 
+.bodyContent p {
+    line-height: inherit;
+    margin: 0.5em 0;
+}
+
 .free-encyclopedia {
     display: block;
     font-size: 92%;
@@ -244,4 +249,24 @@ h1 {
     margin: 0 0 1.4em 1em;
     color: #54595d;
     width: auto;
+}
+
+.box-index {
+    display: table;
+    padding: 7px;
+    zoom: 1;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 95%;
+}
+
+.index-title {
+    text-align: center;
+    direction: ltr;
+}
+
+.index-title h2 {
+    display: inline;
+    font-size: 100%;
+    margin-top: 1em;
 }
